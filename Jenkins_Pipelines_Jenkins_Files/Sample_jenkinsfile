@@ -28,6 +28,7 @@ pipeline {
                 sh '''
                 ls
                 pwd
+                df -h
                 echo "In Build Step"
                 '''
             }
